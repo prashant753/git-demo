@@ -1,0 +1,128 @@
+t commands
+
+git is a distrbuted version control system
+
+
+
+
+
+to configure git who,when and why :-git config  --global user.name "your name"
+
+									git config --global user.email "your email"
+
+									
+
+									global means all
+
+				   
+
+git init :- to create  local repository i.e. (.git) . represents hidden files
+
+
+
+git --version : to  know the version 
+
+repository: store the files
+
+git status : to check the status oin the repository
+
+   * untracked file : when it does not commit and shows in red 
+
+
+
+git add file_name : to add the files in repository
+
+
+
+git commit -m "your_message" :- to commit the files in the repositor
+
+
+
+git log :- to know the details of the person who, when and why he had changed.
+
+
+
+git add . - add all the files
+
+
+
+git checkout head - reaches to last committed file
+
+
+
+git checkout commit id - moves to the desired id
+
+
+
+git log --oneline :- show the commit in one line
+
+
+
+git reset: reset to the commit
+
+
+
+to Create branch:-
+
+		git branch: shows the branch
+
+		git branch branchname :- creates new branch
+
+		git checkout branch_name : to go to the that branch 
+
+		git branch -b branch_name:- it will create the branch and move it to that brnach
+
+		git checkout master - go to the head node and doesnot save the changes in the file
+
+		git checkout -b branch_name old brnach_name :-create a branch from another brnach
+
+ 
+
+to merge the branch :
+
+	git merge sourcebrnach destinationbranch : merge the branches
+
+ to delete the branch :
+
+	git branch -d branchname
+
+to differentiate the
+
+file:-
+
+		git diff :differentiate b/w the files
+
+	   git diff --cached
+
+	   
+
+Remote repository:
+
+
+
+		git remote add origin [file path] : 
+
+		git remote show origin
+
+		git push origin master
+
+		git clone [git address]
+
+		
+
+git rebase [branch_name] : - used to make a partcular branch as a master branch.
+
+
+
+git stash save :- to push
+
+git stash pop :- to pop
+
+
+
+git fetch:- will get the changes from the repository but doesnot merge
+
+
+
+git pull = git fetch + git merge.
+
